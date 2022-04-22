@@ -76,7 +76,8 @@ defmodule Jetstream.MixProject do
 
   defp aliases do
     [
-      "test.watch": &test_watch/1
+      "test.watch": &test_watch/1,
+      benchmark: "run test/benchmark.exs"
     ]
   end
 
